@@ -74,3 +74,18 @@ yum install archive/kibana-archive-4.4.0-0.0.a1.el7.noarch.rpm -y
 echo "server.host: 0.0.0.0" >> /etc/kibana/kibana.yml && systemctl restart kibana
 iptables -A IN_public_allow -p tcp --dport 5601 -j ACCEPT
 ```
+
+## Testing
+
+1. Run pscheduler task
+```bash
+pscheduler task rtt --dest monipe-sp-atraso.rnp.br
+```
+
+2. Open Web interfaces
+
+| Service | Port |
+| --- | --- |
+| Toolkit | 80 |
+| Elmond | 5000 |
+| Kibana | 5601 |
