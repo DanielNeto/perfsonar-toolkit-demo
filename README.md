@@ -2,9 +2,9 @@
 
 ## VM specs
 
-| Spec | Config |
+| Spec | Value |
 | --- | --- |
-| SO | CentOS 7 |
+| OS | CentOS 7 |
 | CPU | 2 vCPUs |
 | RAM | 4096 MB |
 
@@ -12,6 +12,7 @@
 
 1. Clone code
 ```bash
+yum install git -y
 git clone https://github.com/DanielNeto/perfsonar-toolkit-demo.git
 cd perfsonar-toolkit-demo
 ```
