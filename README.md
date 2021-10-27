@@ -52,6 +52,7 @@ yum install archive/perfsonar-archive-4.4.0-0.0.a1.el7.noarch.rpm -y
 4. Core + Testpoint
 ```bash
 yum install toolkit/perfsonar-toolkit-install-4.4.0-1.el7.noarch.rpm -y
+yum install toolkit/perfsonar-toolkit-archive-utils-4.4.0-1.el7.noarch.rpm -y
 yum install core/perfsonar-core-4.4.0-1.el7.noarch.rpm -y
 ```
 
