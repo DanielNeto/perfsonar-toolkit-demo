@@ -97,7 +97,7 @@ yum install archive/kibana-archive-4.4.0-0.0.a1.el7.noarch.rpm -y
 echo "server.host: 0.0.0.0" >> /etc/kibana/kibana.yml && systemctl restart kibana
 ```
 ```bash
-iptables -A IN_public_allow -p tcp --dport 5601 -j ACCEPT
+firewall-cmd --add-port=5601/tcp
 ```
 
 ## Testing
