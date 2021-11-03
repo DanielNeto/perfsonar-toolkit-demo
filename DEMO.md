@@ -17,6 +17,9 @@ yum install perfsonar-toolkit -y
 pscheduler task rtt --dest monipe-mg-atraso.rnp.br
 ```
 ```bash
+pscheduler task throughput --dest monipe-mg-atraso.rnp.br
+```
+```bash
 5y35385t11OUnZBxtMsI
 ```
 ```bash
