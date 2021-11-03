@@ -19,3 +19,6 @@ pscheduler task rtt --dest monipe-mg-atraso.rnp.br
 ```bash
 5y35385t11OUnZBxtMsI
 ```
+```bash
+meta.source.geo.country_name:France and result.rtt.max>0.1
+```
